@@ -75,7 +75,6 @@ const devices = [
 
 var run = function (options) {
 	devices.forEach((device) => {
-		// eslint-disable-next-line jest/valid-title
 		describe(device.name, () => {
 			beforeAll(async () => {
 				browser = await puppeteer.launch();
