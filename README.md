@@ -22,11 +22,7 @@ import run from '@fundamend/plugin-vitest-easy-snapshot';
 
 run({
 	url: 'http://localhost:1234',
-	elements: [
-		'data-test-id-1',
-		'data-test-id-2',
-		'data-test-id-3'
-	]
+	elements: ['data-test-id-1', 'data-test-id-2', 'data-test-id-3']
 });
 ```
 
