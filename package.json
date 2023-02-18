@@ -3,9 +3,7 @@
 	"version": "0.0.2",
 	"dependencies": {
 		"jest-image-snapshot": "^5.2.0",
-		"jest-puppeteer": "^6.1.0",
-		"puppeteer": "^14.4.1",
-		"puppeteer-to-istanbul": "^1.4.0",
+		"playwright": "1.30.0",
 		"vitest": "^0.15.1"
 	},
 	"devDependencies": {
